@@ -1,15 +1,85 @@
-body{
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color:#1b1b32;
-    color:#f5f6f7
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
 }
-label{
-    display: block;
-    margin: 0.5rem 0.3rem;
+label {
+  display: block;
+  margin: 0.5rem 0.3rem;
 }
-fieldset{
-    border-color: aqua;
-    margin: 12px 0;
+fieldset {
+  border-color: aqua;
+  margin: 12px 0;
 }
+p,
+h1 {
+  margin: 1rem auto;
+  text-align: center;
+}
+form {
+  margin: 1rem auto;
+  width: 60vw;
+  max-width: 500px;
+ padding: 2em;
+  min-width: 100px;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+.one {
+  width: 25%;
+}
+.two {
+  width: 75%;
+}
+
+/* .inline {
+  width: unset;
+
+  width: unset;
+  margin-right: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+} */
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: white;
+  min-height: 2em;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  background-color: aliceblue;
+  color: #1b1b32;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #f5f6f7;
+  border: #f5f6f7;
+}
+input[type="file"]{
+padding: 1px 2px;
+}
+a{
+
+color: aliceblue;
+}
+
