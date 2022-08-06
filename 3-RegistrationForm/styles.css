@@ -9,3 +9,7 @@ label{
     display: block;
     margin: 0.5rem 0.3rem;
 }
+fieldset{
+    border-color: aqua;
+    margin: 12px 0;
+}
