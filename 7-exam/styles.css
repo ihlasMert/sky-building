@@ -1,0 +1,12 @@
+
+body{
+    background-color: aqua;
+    text-transform: capitalize;
+    align-items: center;
+}
+h1, p{
+    text-align: center;
+}
+form{
+    background-color: blue;
+}
