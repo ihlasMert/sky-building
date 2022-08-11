@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: monospace;
+  display: flex;
+  margin: 0;
+}
+
+nav{
+  background-color: #eee;
+  max-width: 300px;
+  height: 100vw;
+  border-right: 2px solid #777;
+}
+nav a{
+  border-top: 2px solid #ddd;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 25px;
+  font-size: 20px;
+}
+main{
+  flex: 1; 
+}
+header{
+  font-size: 30px;
+  font-weight: 24px;
+  padding: 15px;
+}
